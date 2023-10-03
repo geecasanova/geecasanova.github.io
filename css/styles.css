@@ -4,50 +4,63 @@ Date: 2/26/2023
 File Name: styles.css
 */
 
-body, header, nav, main, footer, h1, div, img {
+body, header, nav, main, footer, h1, div, img, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 
 body {
-	background-color: #b3e0ff;
+	background-color: #26004d;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 header {
-	padding-top: 80px;
-	padding-bottom: 20px;
+	padding: 20%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	font-size: 30px;
 	text-align: center;
 	color: #bdc1c1;
 	font-family: Georgia;
+	border: 2px ridge black;
+	border-width: 20px;
+	background-color: black;
+	border-radius: 5px;
 }
 
 nav {
-	padding-bottom: 50px;
+	border: round;
+	margin: auto;
 }
+
 
 nav ul {
+	margin-top: 2px;
 	text-align: center;
+	padding-right: 50px;
 }
 
-nav li {
+nav ul li {
 	display: inline-block;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: Georgia;
 	font-weight: italic;
-	
+	background-color: black;
 }
 
 nav li a {
 	display: block;
-	color: #000000;
+	color:#bdc1c1;
 	padding: 7px;
 	text-decoration: none;
 }
 /* css style for background */
 #maindesign {
 	margin: auto;
+	margin-top: 30px;
 	width: 65%;
 	min-width: 500px;
 	border-top: 2px ridge #000;
@@ -100,6 +113,8 @@ nav li a {
 #atag {
 	color: #000000;
 	text-decoration: none;
+	font-family: Georgia;
+	
 }
 
 
@@ -110,5 +125,5 @@ footer {
 
 footer p {
 	font-size: 12px;
-	color: #0d260d;
+	color: #bdc1c1;
 }
