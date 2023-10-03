@@ -1,0 +1,133 @@
+/*
+Aurthor: Greg Janvier
+Date: 2/26/2023
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #26004d;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+header {
+	padding: 20%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	text-align: center;
+	color: #bdc1c1;
+	font-family: Georgia;
+	border: 2px ridge black;
+	border-width: 20px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+nav {
+	border: round;
+	margin: auto;
+}
+
+
+nav ul {
+	margin-top: 2px;
+	text-align: center;
+	padding-right: 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 25px;
+	font-family: Georgia;
+	font-weight: italic;
+	background-color: black;
+}
+
+nav li a {
+	display: block;
+	color:#bdc1c1;
+	padding: 7px;
+	text-decoration: none;
+}
+/* css style for background */
+#maindesign {
+	margin: auto;
+	margin-top: 30px;
+	width: 65%;
+	min-width: 500px;
+	border-top: 2px ridge #000;
+	border-right: 2px ridge #000;
+	border-left: 2px ridge #000;
+	border-bottom: 2px ridge #000;
+	border-width: 20px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#imgtext {
+	min-width: 500px;
+	min-height: 350px;
+	margin: 0;
+}
+
+#maindesign p {
+	margin: 5px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: lighter;
+	color: #000000;
+	padding: 7px;
+	text-align: justify;
+	font-size: 18px;
+}
+#maindesign ul {
+	list-style-type: none;
+	padding: 1%;
+	
+}
+
+#maindesign ul li {
+	padding: 3px;
+}
+
+
+#imgtext img {
+	width: 350px; 
+	height: 295px;
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+	padding: 0;
+	border: 0;
+	box-shadow: 5px 5px 10px black;
+}
+/* end of style for background */
+
+#atag {
+	color: #000000;
+	text-decoration: none;
+	font-family: Georgia;
+	
+}
+
+iframe {
+	padding-bottom: 20px;
+}
+
+
+footer {
+	text-align: center;
+	
+}
+
+footer p {
+	font-size: 12px;
+	color: #bdc1c1;
+}
