@@ -11,7 +11,7 @@ body, header, nav, main, footer, h1, div, img, ul {
 }
 
 body {
-	background-color: #26004d;
+	background-color: #b1dae7;
 	padding-top: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -23,32 +23,37 @@ header {
 	padding-bottom: 40px;
 	font-size: 30px;
 	text-align: center;
-	color: #bdc1c1;
-	font-family: Georgia;
-	border: 2px ridge black;
+	color: #d8edf3;
+	font-family: 'Dela Gothic One', sans-serif;
+	border: 2px ridge #d8edf3;
 	border-width: 20px;
-	background-color: black;
+	background-image: url(https://pa1.narvii.com/6916/c89632f98d5b4bcb244acab44ce76b1b241181e9r1-443-332_hq.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 5px;
 }
 
 nav {
-	border: round;
-	margin: auto;
+	margin-top: 10px;
+	
+	
 }
 
 
 nav ul {
 	margin-top: 2px;
 	text-align: center;
-	padding-right: 50px;
+	
+	
 }
 
 nav ul li {
 	display: inline-block;
 	font-size: 25px;
-	font-family: Georgia;
+	font-family: 'Dela Gothic One', sans-serif;
 	font-weight: italic;
 	background-color: black;
+	border: 5px ridge #d8edf3;
 }
 
 nav ul li:hover {
@@ -67,10 +72,10 @@ nav li a {
 	margin-top: 30px;
 	width: 65%;
 	min-width: 500px;
-	border-top: 2px ridge #000;
-	border-right: 2px ridge #000;
-	border-left: 2px ridge #000;
-	border-bottom: 2px ridge #000;
+	border-top: 2px ridge #d8edf3;
+	border-right: 2px ridge #d8edf3;
+	border-left: 2px ridge #d8edf3;
+	border-bottom: 2px ridge #d8edf3;
 	border-width: 20px;
 	text-align: center;
 	background-color: #fff;
@@ -84,12 +89,12 @@ nav li a {
 
 #maindesign p {
 	margin: 5px;
-	font-family: Verdana, Arial, sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: lighter;
 	color: #000000;
-	padding: 7px;
+	padding: 10px;
 	text-align: justify;
-	font-size: 18px;
+	font-size: 20px;
 }
 #maindesign ul {
 	list-style-type: none;
@@ -117,7 +122,7 @@ nav li a {
 #atag {
 	color: #000000;
 	text-decoration: none;
-	font-family: Georgia;
+	font-family: 'Rubik', sans-serif;
 	
 }
 
@@ -133,5 +138,15 @@ footer {
 
 footer p {
 	font-size: 12px;
-	color: #bdc1c1;
+	color: #fff;
+}
+
+#socials {
+	color: #000000;
+	font-size: 20px;
+}
+
+#img {
+	height: 20px;
+	width: 20px;
 }
