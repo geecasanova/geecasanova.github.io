@@ -11,7 +11,9 @@ body, header, nav, main, footer, h1, div, img, ul {
 }
 
 body {
-	background-color: #b1dae7;
+	background-image: url(https://www.icegif.com/wp-content/uploads/icegif-47.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -27,7 +29,7 @@ header {
 	font-family: 'Dela Gothic One', sans-serif;
 	border: 2px ridge #d8edf3;
 	border-width: 20px;
-	background-image: url(https://pa1.narvii.com/6916/c89632f98d5b4bcb244acab44ce76b1b241181e9r1-443-332_hq.gif);
+	background-image: url(https://66.media.tumblr.com/7c26e3ca4883de9e9858bb2ddd1aa847/tumblr_olv0zt7QxX1s1bwvio5_500.gifv);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
@@ -52,11 +54,14 @@ nav ul li {
 	font-size: 25px;
 	font-family: 'Dela Gothic One', sans-serif;
 	font-weight: italic;
-	background-color: black;
+	background-image: url(https://66.media.tumblr.com/7c26e3ca4883de9e9858bb2ddd1aa847/tumblr_olv0zt7QxX1s1bwvio5_500.gifv);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: 5px ridge #d8edf3;
 }
 
 nav ul li:hover {
+	 background: none;
 	background-color: #f3f3f3;
 }
 
@@ -78,7 +83,7 @@ nav li a {
 	border-bottom: 2px ridge #d8edf3;
 	border-width: 20px;
 	text-align: center;
-	background-color: #fff;
+	background-color: #d8edf3;
 }
 
 #imgtext {
@@ -138,11 +143,11 @@ footer {
 
 footer p {
 	font-size: 12px;
-	color: #fff;
+	color: #d8edf3;
 }
 
 #socials {
-	color: #000000;
+	color: #d8edf3;
 	font-size: 20px;
 }
 
