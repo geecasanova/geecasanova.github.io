@@ -112,6 +112,38 @@ main {
 	border-radius: 8px;
 }
 
+.external-link {
+	color: #666600;
+	font-weight: bold;
+	text-decoration: none;
+}
+#contact {
+	text-align: center;
+}
+
+#contact .contact-email-link {
+	color: #666600;
+	text-decoration: none;
+}
+
+.map {
+	border: 2px solid #000;
+	width: 95%;
+	height: 50%;
+}
+/* Style rules for footer content */
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
+
+footer p a {
+	color: #fff;
+	text-decoration: none;
+}
+
 /* Media Query for tablet Viewport */
 
 @media screen and (min-width: 630px), print {
@@ -168,7 +200,7 @@ main ul {
 	padding: 0.5% 1% 2% 0;
 } 
  
-}
+
 
 .tel-num {
 	font-size: 1.25em;
@@ -179,10 +211,18 @@ main ul {
 	height:450px;
 }
 
+}
+
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
 
 	/*Desktop Viewport: Style rule for header */
+
+	header {
+		width: 25%;
+		float: left; 
+		padding-bottom: 0;
+	}
 	nav {
 		float: right;
 		width: 70%;
@@ -246,37 +286,7 @@ main ul {
 	}
 
 }
-.external-link {
-	color: #666600;
-	font-weight: bold;
-	text-decoration: none;
-}
-#contact {
-	text-align: center;
-}
 
-#contact .contact-email-link {
-	color: #666600;
-	text-decoration: none;
-}
-
-.map {
-	border: 2px solid #000;
-	width: 95%;
-	height: 50%;
-}
-/* Style rules for footer content */
-footer p {
-	font-size: 0.75em;
-	text-align: center;
-	color: #fff;
-	padding: 0 1em;
-}
-
-footer p a {
-	color: #fff;
-	text-decoration: none;
-}
 
 
 
