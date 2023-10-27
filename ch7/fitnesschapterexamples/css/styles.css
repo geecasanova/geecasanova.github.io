@@ -14,7 +14,7 @@ body {
 	background-color: #000;
 }
 img {
-	max-height: 100%;
+	max-width: 100%;
 	display: block;
 }
 
@@ -251,12 +251,12 @@ aside {
 	font-weight: bold;
 	padding: 2%;
 	background-color: rgba(204, 204, 204, 0.5);
-	box-shadow: 5px 5px 8px #0000;
+	box-shadow: 5px 5px 8px #000;
 	text-shadow: 5px 5px 5px #b3b3b3;
 	border-radius: 0 15px;
 }
 
-.grid-item {
+.grid-item4 {
 	grid-column: 1 / span 3;
 }
 
