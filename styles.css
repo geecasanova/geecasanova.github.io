@@ -1,0 +1,295 @@
+/*
+Aurthor: Greg Janvier
+Date: 2/26/2023
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	box-sizing: border-box;
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40980f65-c635-4896-9d4f-6515b53e01a5/d75arky-ccdaf0ab-19ea-46bb-9bb2-2c427c380a6c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwOTgwZjY1LWM2MzUtNDg5Ni05ZDRmLTY1MTViNTNlMDFhNVwvZDc1YXJreS1jY2RhZjBhYi0xOWVhLTQ2YmItOWJiMi0yYzQyN2MzODBhNmMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KHVzxtEtROi43xNUEBFM42pnHuQKf4SU-TAUJQJczJQ);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+header {
+	margin: 0 50px;
+	padding: 10%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	text-align: center;
+	color: #737373;
+	font-family: 'Dela Gothic One', sans-serif;
+	border: 2px ridge #000;
+	border-width: 20px;
+	border-radius: 5px;
+}
+
+
+/* Mobile Styling */
+header {
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+nav {
+	margin-top: 10px;
+	
+	
+}
+
+
+nav ul {
+	margin-top: 2px;
+	text-align: center;
+	
+	
+}
+
+nav ul li {
+	margin: auto;
+	display: block;
+	font-size: 25px;
+	font-family: 'Dela Gothic One', sans-serif;
+	font-style: italic;
+	border: 5px ridge #000;
+	background-image: url(https://i.pinimg.com/originals/66/9f/9e/669f9e9981a7cb4bfe804c72fb79dbdc.gif);
+}
+
+nav ul li:hover {
+	 background: none;
+	background-color: #f3f3f3;
+}
+
+nav li a {
+	display: block;
+	color:#737373;
+	padding: 7px;
+	text-decoration: none;
+}
+
+main {
+margin: auto;
+}
+
+#maindesign {
+	margin: auto;
+	margin-top: 30px;
+	width: 65%;
+	/*min-width: 500px;*/
+	border-top: 2px ridge #000;
+	border-right: 2px ridge #000;
+	border-left: 2px ridge #000;
+	border-bottom: 2px ridge #000;
+	border-width: 20px;
+	text-align: center;
+	
+}
+
+#maindesign p {
+	margin: 5px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: Bolder;
+	color: #737373;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#imgtext {
+	display: none;
+	min-width: 500px;
+	min-height: 350px;
+	margin: 0;
+}
+
+#maindesign ul {
+	list-style-type: none;
+	padding: 1%;
+	
+}
+
+#maindesign ul li {
+	padding: 3px;
+}
+
+#imgtext img {
+	width: 350px; 
+	height: 295px;
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+	padding: 0;
+	border: 0;
+	box-shadow: 5px 5px 10px black;
+}
+
+article {
+	padding: 2%;
+	margin: 5px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: Bolder;
+	color: #737373;
+	padding: 10px;
+	font-size: 20px;
+	text-shadow: 5px black;
+	text-shadow: 5px 2px #003380;
+}
+
+aside {
+	text-align: center;
+	padding: 2%;
+	opacity: 0.8;
+}
+
+.frame {
+	
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+	
+}
+
+.grid {
+	margin: 0 auto;
+	
+}
+
+.pic-text {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+
+/* end of style for background */
+
+#atag {
+	color: #737373;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+iframe {
+	display: none;
+	padding-bottom: 20px;
+}
+
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer p {
+	font-size: 12px;
+	color: #737373;
+}
+
+#socials {
+	color: #737373;
+	font-size: 20px;
+}
+
+#img {
+	height: 20px;
+	padding-left: 5px;
+	width: 20px;
+}
+
+.tablet-desktop {
+	display: none;
+
+}
+
+
+/* Media Query for tablet viewport */
+
+@media screen and ( min-width: 630px) {
+
+/* Tablet Viewport: Show tablet=desktop class, hide mobile class */
+.mobile {
+	display: none;
+}
+
+.tablet-desktop {
+	display: block;
+}
+
+#imgtext {
+	display: block;
+	text-align: center;
+}
+
+/*nav styling */
+
+nav ul li {
+	display: inline-block;
+	font-size: 13px;
+	
+}
+
+/* map styling */
+iframe {
+	height: 100%;
+	width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1050px) {
+
+	/*Desktop Viewport: Style rule for header */
+
+	nav ul li {
+		font-size: 25px;
+		margin: auto;
+	}
+
+	.grid1 {
+		display: grid; 
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	aside {
+		text-align: center;
+	}
+
+	.grid {
+		margin-top: 200px;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		
+
+	}
+
+
+}
+
