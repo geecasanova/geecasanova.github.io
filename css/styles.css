@@ -4,7 +4,7 @@ Date: 2/26/2023
 File Name: styles.css
 */
 
-body, header, nav, main, footer, h1, div, img, ul {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -34,6 +34,7 @@ header {
 	border-width: 20px;
 	border-radius: 5px;
 }
+
 
 /* Mobile Styling */
 header {
@@ -106,7 +107,7 @@ margin: auto;
 #maindesign p {
 	margin: 5px;
 	font-family: 'Rubik', sans-serif;
-	font-weight: lighter;
+	font-weight: Bolder;
 	color: #737373;
 	padding: 10px;
 	font-size: 20px;
@@ -139,6 +140,53 @@ margin: auto;
 	border: 0;
 	box-shadow: 5px 5px 10px black;
 }
+
+article {
+	padding: 2%;
+	margin: 5px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: Bolder;
+	color: #737373;
+	padding: 10px;
+	font-size: 20px;
+	text-shadow: 5px black;
+	text-shadow: 5px 2px #003380;
+}
+
+aside {
+	text-align: center;
+	padding: 2%;
+	opacity: 0.8;
+}
+
+.frame {
+	
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+	
+}
+
+.grid {
+	margin: 0 auto;
+	
+}
+
+.pic-text {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+
 /* end of style for background */
 
 #atag {
@@ -155,6 +203,7 @@ iframe {
 
 
 footer {
+	clear: both;
 	text-align: center;
 }
 
@@ -196,16 +245,16 @@ footer p {
 #imgtext {
 	display: block;
 	text-align: center;
-	
 }
 
 /*nav styling */
 
 nav ul li {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 13px;
 	
 }
+
 /* map styling */
 iframe {
 	height: 100%;
@@ -222,6 +271,25 @@ iframe {
 		font-size: 25px;
 		margin: auto;
 	}
+
+	.grid1 {
+		display: grid; 
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	aside {
+		text-align: center;
+	}
+
+	.grid {
+		margin-top: 200px;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		
+
+	}
+
 
 }
 
