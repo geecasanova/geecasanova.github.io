@@ -1,0 +1,33 @@
+/*
+Author: Greg Janvier
+Date: 10/13/2023
+File Name: extend09.css
+*/
+/* CSS Reset*/
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffe5dc;
+}
+
+table {
+    border-color: #fd4d0c;
+    box-shadow: #792102;
+}
+
+tr {
+    font-family: 'Open Sans', sans-serif;
+}
+
+td {
+    border-color: #a22c02;
+}
+
+tr:nth-child(odd) {
+    background-color: #fe9772;
+}
+
