@@ -4,7 +4,7 @@ Date: 10/13/2023
 File Name: extend09.css
 */
 /* CSS Reset*/
-body, main, footer, table {
+body, main, footer, table, tr, th, td, caption {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,21 +13,38 @@ body, main, footer, table {
 body {
     background-color: #ffe5dc;
 }
+caption {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #792101;
+    font-weight: bold;
+}
 
 table {
-    border-color: #fd4d0c;
-    box-shadow: #792102;
+    margin-top: 200px;
+    margin-left: 640px;
+    border: 4px solid #fd4d0c;
+    box-shadow: 5px 5px 5px 5px #792101;
 }
 
 tr {
     font-family: 'Open Sans', sans-serif;
 }
 
+th {
+    background-color: #a22c02;
+    color: #ffe5dc;
+}
+
 td {
-    border-color: #a22c02;
+    border: 1px solid #a22c02;
 }
 
 tr:nth-child(odd) {
     background-color: #fe9772;
+}
+
+footer {
+    text-align: center;
 }
 
