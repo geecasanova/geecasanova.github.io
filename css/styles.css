@@ -228,7 +228,9 @@ caption {
 	font-size: 30px;
 	margin-bottom: 1%;
 }
-
+table, tr, th, td {
+	border-collapse: collapse;
+}
 table {
 	margin: 0 auto;
 	margin-bottom: 5%;
@@ -237,6 +239,7 @@ table {
 
 td{
 	border: 2px solid #737373;
+	list-style-type: none;
 }
 
 .notclickable {
