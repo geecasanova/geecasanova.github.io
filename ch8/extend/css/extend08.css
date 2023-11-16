@@ -20,7 +20,7 @@ caption {
     font-weight: bold;
 }
 
-tr, th, td {
+table, tr, th, td {
     border-collapse: collapse;
 }
 table {
@@ -37,6 +37,7 @@ tr {
 th {
     background-color: #a22c02;
     color: #ffe5dc;
+    border: 1px solid #fe9772;
 }
 
 td {
