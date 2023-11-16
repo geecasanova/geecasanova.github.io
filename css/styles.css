@@ -4,7 +4,7 @@ Date: 2/26/2023
 File Name: styles.css
 */
 
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside, table, tr, th, td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -221,6 +221,31 @@ footer p {
 	height: 20px;
 	padding-left: 5px;
 	width: 20px;
+}
+
+caption {
+	color:#737373;
+	font-size: 30px;
+	margin-bottom: 1%;
+}
+
+table {
+	margin: 0 auto;
+	margin-bottom: 5%;
+	border: 5px solid #737373;
+}
+
+td{
+	border: 2px solid #737373;
+}
+
+.notclickable {
+	pointer-events: none;
+}
+
+th {
+	color: #737373;
+	border: 2px solid #737373;
 }
 
 .tablet-desktop {
