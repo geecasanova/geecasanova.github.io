@@ -20,6 +20,9 @@ caption {
     font-weight: bold;
 }
 
+tr, th, td {
+    border-collapse: collapse;
+}
 table {
     margin-top: 200px;
     margin-left: 640px;

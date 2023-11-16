@@ -31,7 +31,7 @@ table {
 	border: 3px solid #71881b;
 }
 
-tr, th, td {
+table, tr, th, td {
 	border-collapse: collapse;
 	padding: 2%;
 }
