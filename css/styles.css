@@ -4,7 +4,7 @@ Date: 2/26/2023
 File Name: styles.css
 */
 
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside, table, tr, th, td {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside, table, tr, th, td, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -286,10 +286,23 @@ form #submit {
 	background-color: #003380;
 }
 
+/* Style Rules for video*/
+video {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	max-width: 50%;
+	border-top: 2px ridge #000;
+	border-right: 2px ridge #000;
+	border-left: 2px ridge #000;
+	border-bottom: 2px ridge #000;
+	border-width: 15px;
+}
+
 .tablet-desktop {
 	display: none;
 
 }
+
 
 
 /* Media Query for tablet viewport */
@@ -314,7 +327,7 @@ form #submit {
 
 nav ul li {
 	display: inline-block;
-	font-size: 13px;
+	font-size: 9px;
 	
 }
 
