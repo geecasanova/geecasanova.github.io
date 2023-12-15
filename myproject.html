@@ -11,8 +11,26 @@
 <!-- This introduce who I am and a introduction to my website -->
 
 
-<header class="headeratstart"><h1>Greg Janvier</h1></header>
-<nav>
+<header id="logo" class="headeratstart"><h1>Greg Janvier</h1></header>
+
+<!--Mobile Nav-->
+
+<nav class="mobile-nav">
+	<div id="menu-links">
+		<a href="index.html">Home</a>
+		<a href="background.html">Background</a>
+		<a href="accomplishments.html">Accomplishments</a>
+		<a href="futuregoals.html">Future Goals</a>
+		<a href="myproject.html">My Projects</a>
+		<a href="hobbies.html">My Hobbies</a>
+		<a href="favorites.html">My Favorites</a>
+	</div>
+	<a class="menu-icon" id="logo-styling"  onclick="hamburger()">
+		<div ><img src="images/menu.png"></div>
+	</a>
+</nav>
+
+<nav class="tablet-desktop">
 	<ul>
 		<li><a href="index.html">Home</a></li> 
 		<li><a href="background.html">Background</a></li>
@@ -68,6 +86,9 @@
 		<td><li><a id="atag" href="ch10\fitnesschapterexamples\index.html">ch10examples</a></li></td>
 		<td><li><a id="atag" href="ch10\apply\index.html">ch10Apply Assigment</a></li></td>
 	</tr>
+	<tr>
+		<td><li><a id="atag" href="ch11\fitnesschapterexamples\index.html">ch11examples</a></li></td>
+	</tr>
 	</ul>
 </table>
 </main>
@@ -81,5 +102,8 @@
 		<p>Your broswer does not support the audio element.</p>
 	</audio>
 </footer>
+
+<script src="scripts/script.js"></script>
+
 </body>
 </html>

@@ -43,48 +43,32 @@ header {
 	
 }
 
-nav {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-}
+/* Hamburger Styling */
 
-
-nav {
-	margin-top: 10px;
-	
-	
-}
-
-
-nav ul {
-	margin-top: 2px;
-	text-align: center;
-	
-	
-}
-
-nav ul li {
-	margin: auto;
-	display: block;
-	font-size: 25px;
-	font-family: 'Dela Gothic One', sans-serif;
-	font-style: italic;
-	border: 5px ridge #000;
-	background-image: url(https://i.pinimg.com/originals/66/9f/9e/669f9e9981a7cb4bfe804c72fb79dbdc.gif);
-}
-
-nav ul li:hover {
-	 background: none;
-	background-color: #f3f3f3;
-}
-
-nav li a {
-	display: block;
+.mobile-nav a {
 	color:#737373;
-	padding: 7px;
+	font-family: 'Dela Gothic One', sans-serif;
+	text-align: center;
+	font-size: 2em;
 	text-decoration: none;
+	padding: 3%;
+	display: block;
 }
+#menu-links {
+	display: none;
+}
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#logo-styling img {
+	max-width: 10%;
+}
+
+
 
 main {
 margin: auto;
@@ -310,7 +294,7 @@ video {
 @media screen and ( min-width: 630px) {
 
 /* Tablet Viewport: Show tablet=desktop class, hide mobile class */
-.mobile {
+.mobile, .mobile-nav {
 	display: none;
 }
 
@@ -324,6 +308,50 @@ video {
 }
 
 /*nav styling */
+
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+nav {
+	margin-top: 10px;
+	
+	
+}
+
+
+nav ul {
+	margin-top: 2px;
+	text-align: center;
+	
+	
+}
+
+nav ul li {
+	margin: auto;
+	display: block;
+	font-size: 25px;
+	font-family: 'Dela Gothic One', sans-serif;
+	font-style: italic;
+	border: 5px ridge #000;
+	background-image: url(https://i.pinimg.com/originals/66/9f/9e/669f9e9981a7cb4bfe804c72fb79dbdc.gif);
+}
+
+
+nav ul li:hover {
+	 background: none;
+	background-color: #f3f3f3;
+}
+
+nav li a {
+	display: block;
+	color:#737373;
+	padding: 7px;
+	text-decoration: none;
+}
 
 nav ul li {
 	display: inline-block;
