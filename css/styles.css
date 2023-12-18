@@ -144,11 +144,15 @@ aside {
 }
 
 .frame {
-	
 	position: relative;
 	max-width: 450px;
 	margin: 2% auto;
 	
+}
+
+.frame:hover {
+	opacity: 1;
+	transform: translateY(11px);
 }
 
 .grid {
@@ -233,6 +237,18 @@ td{
 th {
 	color: #737373;
 	border: 2px solid #737373;
+}
+
+/* Accomplishment Design*/
+.accomplishments-design article img {
+	padding: 2%;
+	height: 500px;
+	max-width: 100%;
+	box-shadow: 5px 5px 10px black;
+}
+
+.accomplishments-design article img:hover {
+	transform: translateY(10px);
 }
 
 /* Style for Form*/
