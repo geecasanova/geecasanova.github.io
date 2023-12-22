@@ -242,8 +242,8 @@ th {
 /* Accomplishment Design*/
 .accomplishments-design article img {
 	padding: 2%;
-	height: 500px;
-	max-width: 100%;
+	height: 100px;
+	width: 150px;
 	box-shadow: 5px 5px 10px black;
 }
 
@@ -323,6 +323,12 @@ video {
 	text-align: center;
 }
 
+.accomplishments-design article img {
+	padding: 2%;
+	height: 200px;
+	width: 250px;
+	box-shadow: 5px 5px 10px black;
+}
 /*nav styling */
 
 nav {
@@ -389,6 +395,8 @@ form {
 	margin: 0 auto;
 }
 
+
+
 .btn {
 	grid-column: 1 / span 2;
 }
@@ -409,6 +417,7 @@ form {
 		grid-gap: 20px;
 	}
 
+
 	aside {
 		text-align: center;
 	}
@@ -419,6 +428,17 @@ form {
 		grid-template-columns: auto auto auto;
 		
 
+	}
+
+	.accomplishments-design article img {
+		padding: 2%;
+		height: 450px;
+		width: 500px;
+		box-shadow: 5px 5px 10px black;
+	}
+
+	.accomplishments-design article img:hover {
+		transform: translateY(10px);
 	}
 
 }
