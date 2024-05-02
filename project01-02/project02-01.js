@@ -9,22 +9,24 @@
       Filename: project02-01.js
  */
 
-function CelsiusToFahrenheit (degree) {
-  return degree * 1.8 + 32;
+//Function Convert Celsius to Fahrenheit 
+function CelsiusToFahrenheit() {
+  Cv=document.getElementById("cValue");
+  F = ((fV.value - 32) / 1.8);
+  Cv.value=F;
+  //return F;   
 }
 
-function FareheitToCelsius (degree) {
-  return degree * 1.8 - 32;
-}
-      
-document.getElementById("cValue").onchange = function () {
-  let cDegree = document.getElementById("cValue").value;
-  document.getElementById("fValue").value = CelsiusToFahrenheit(cDegree);
-  }  
+fV=document.getElementById("fValue");
+fV.addEventListener("change", CelsiusToFahrenheit);
 
-document.getElementById("fValue").onchange = function() {
-  let fDegree = document.getElementById("fValue").value;
-  document.getElementById("cValue").value = FareheitToCelsius(fDegree);
+//Function Convert Fahrenheit to Celsius
+function FahrenheitToCelsius() {
+  Fv=document.getElementById("fValue");
+  C = (cV.value * 1.8 + 32);
+  Fv.value=C;
+  //return C;   
 }
 
-    
+cV=document.getElementById("cValue");
+cV.addEventListener("change", FahrenheitToCelsius);
